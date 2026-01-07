@@ -1,16 +1,16 @@
 <!-- Unit 5 Project
 Requirements
-[  ] <div> and <span>
-[  ] border:, margin:, and padding: 
-[  ] Three Images
+[yes  ] <div> and <span>
+[yes] border:, margin:, and padding: 
+[yes] Three Images
 
 Select TWO Additional Features to Add  
-[ no ] Feature 1 - Flexbox
+[ yes ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
 [ no ] Feature 3 - Animation
 [ no ] Feature 4 - Linear Gradient
 [ no ] Feature 5 - Use a .Gif
-[ no ] Feature 6 - Unique Border Styles
+[ yes ] Feature 6 - Unique Border Styles
 -->
 
 
@@ -18,15 +18,52 @@ Select TWO Additional Features to Add
 <html>
 
 <head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
-
-  </style>
+<title>Spring Shows at LaGuardia</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
- 
-
+<header class="site-header">
+<h1>You're formally invited to the upcoming shows at Lag </h1>
+</header>
+<main>
+<section class="shows">
+<h2 class="section-title">Spring Shows!!🎭(In order) </h2>
+<!-- FLEXBOX 2x2 GRID -->
+<div class="show-grid">
+<div class="show-card card-one">
+<img src="images/of-thee-i-sing.jpg" alt="Of Thee I Sing poster">
+<div class="show-info">
+<h3>Of Thee I Sing</h3>
+<p><span class="label">Dates:</span> March 12–14, 2026</p>
+<p><span class="label">Location:</span> LaGuardia High School Concert Hall</p>
+</div>
+</div>
+<div class="show-card card-two">
+<img src="images/urinetown.jpg" alt="Urinetown poster">
+<div class="show-info">
+<h3>Urinetown</h3>
+<p><span class="label">Dates:</span> March 26–28, 2026</p>
+<p><span class="label">Location:</span> Little Flower Theater</p>
+</div>
+</div>
+<div class="show-card card-three">
+<img src="images/noises-off.jpg" alt="Noises Off poster">
+<div class="show-info">
+<h3>Noises Off</h3>
+<p><span class="label">Dates:</span> April 30–May 2, 2026</p>
+<p><span class="label">Location:</span> Little Flower Theater</p>
+</div>
+</div>
+<div class="show-card card-four">
+<img src="images/macbeth.jpg" alt="Macbeth poster">
+<h3>Macbeth</h3>
+<p><span class="label">Dates:</span> May 29–31, 2026</p>
+<p><span class="label">Location:</span> Little Flower Theater</p>
+</div>
+</div>
+</div>
+</section>
+</main>
 </body>
 </html>
